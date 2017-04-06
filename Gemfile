@@ -6,7 +6,7 @@ gem 'rails', '~> 5.0.0', '>= 5.0.0.1'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3', '1.3.13' , group: [:development, :test]
 # Use pg to accesss PostgreSQL, the database used by Heroku
-gem 'pg', '>= 0.12.2'
+gem 'pg', '>= 0.12.2', group: [:production]
 # Use Puma as the app server
 gem 'puma', '~> 3.0'
 # Use SCSS for stylesheets
